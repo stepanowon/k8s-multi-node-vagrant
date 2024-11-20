@@ -180,7 +180,9 @@ $ kubectl get all
 $ kubectl get ingress
 NAME              CLASS    HOSTS   ADDRESS         PORTS   AGE
 example-ingress   <none>   *       192.168.56.202   80      67s
-
+```
+#### /path1/* , /path2/* 경로로 각각 요청해보기
+```sh
 $ curl -s http://192.168.56.202/path1/abc
 $ curl -s http://192.168.56.202/path2/abc
 ```
